@@ -1,1 +1,8 @@
-aaaa
+git log --oneline
+查看add到暂存区的文件
+
+git tag -a v0.1.0 -m '完成了xxxx'
+git tag 创建标签 -a 注释标签的缩写 v0.1.0 版本 －m ''项目注释内容
+
+git push origin v0.1.0
+推送至tag分支
